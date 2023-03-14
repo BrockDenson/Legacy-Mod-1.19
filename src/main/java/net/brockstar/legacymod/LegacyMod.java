@@ -16,6 +16,7 @@ public class LegacyMod {
     public static final String MOD_ID = "legacymod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
+    // Comment
     public LegacyMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
