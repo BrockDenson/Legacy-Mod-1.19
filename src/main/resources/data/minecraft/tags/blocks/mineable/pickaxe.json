@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "legacymod:sapphire_ore",
+    "legacymod:sapphire_block",
+    "legacymod:deepslate_sapphire_ore"
+  ]
+}

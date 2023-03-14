@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "legacymod:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "legacymod:sapphire",
+    "count": 9
+  }
+}
