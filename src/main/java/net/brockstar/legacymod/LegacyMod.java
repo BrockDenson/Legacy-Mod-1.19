@@ -1,6 +1,8 @@
 package net.brockstar.legacymod;
 
 import com.mojang.logging.LogUtils;
+import net.brockstar.legacymod.block.ModBlocks;
+import net.brockstar.legacymod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -19,6 +21,9 @@ public class LegacyMod {
     // Comment
     public LegacyMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register((modEventBus));
 
         modEventBus.addListener(this::commonSetup);
 

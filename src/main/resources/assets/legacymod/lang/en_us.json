@@ -1,0 +1,10 @@
+{
+  "item.legacymod.sapphire": "Sapphire",
+  "item.legacymod.raw_sapphire": "Raw Sapphire",
+
+  "block.legacymod.sapphire_block": "Block of Sapphire",
+  "block.legacymod.sapphire_ore": "Sapphire Ore",
+  "block.legacymod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+
+  "itemGroup.legacytab": "Sapphire Legacy Tab"
+}
